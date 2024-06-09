@@ -9,8 +9,8 @@ sumarExpression(70+20) // CORRECTO
 
 
 
-//Arrow Function =>
-// 1 LINEA
+//Arrow Function (evita escribir el function y resturn) =>
+// 1 LINEA 
 const sumar1Arrow = (numero1 = 0 , numero2=0) => console.log(numero1 + numero2)
 sumar1Arrow(100,30)
 

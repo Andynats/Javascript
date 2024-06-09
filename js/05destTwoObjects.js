@@ -19,7 +19,7 @@ const cliente = {
 const { nombre } = producto
 const { nombre: nombreCliente } = cliente //Se renombra variable nombre a nombreCliente
 
-//Obtener objeto dentro de otro objeto : {}
+//Obtener dato/propiedad dentro de otro objeto : {}
 const { premium, direccion : { calle }} = cliente
 
 console.log(nombre) //Producto
